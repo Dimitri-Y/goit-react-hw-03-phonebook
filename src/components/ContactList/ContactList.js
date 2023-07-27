@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import css from './ContactList.module.css';
 import PropTypes from 'prop-types';
 class ContactList extends Component {
-  defaultProps = { contacts: [] };
   static propTypes = {
     contacts: PropTypes.arrayOf(
       PropTypes.shape({
