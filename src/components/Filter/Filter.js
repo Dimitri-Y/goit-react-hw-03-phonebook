@@ -2,9 +2,8 @@ import { Component } from 'react';
 import css from './Filter.module.css';
 import PropTypes from 'prop-types';
 class Filter extends Component {
-  static defaultProps = { filter: '' };
   static propTypes = {
-    filter: PropTypes.string.isRequired,
+    filter: PropTypes.string,
     filterChange: PropTypes.func.isRequired,
   };
   render() {
