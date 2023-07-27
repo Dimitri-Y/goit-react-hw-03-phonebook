@@ -28,6 +28,7 @@ class ContactForm extends Component {
     this.props.onSubmit(contactData);
     this.setState({ name: '', number: '' });
   };
+
   render() {
     const { name, number } = this.state;
     return (
