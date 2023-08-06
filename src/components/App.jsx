@@ -4,7 +4,6 @@ import Filter from "./Filter/Filter";
 import ContactList from "./ContactList/ContactList";
 import css from "./App.module.css";
 class App extends Component{
-  id="36658158-346947d8111be045c507b32da"
   state = {
     contacts: [],
     filter: '',
